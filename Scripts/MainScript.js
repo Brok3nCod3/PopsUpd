@@ -353,6 +353,7 @@ function loadGame()
 	document.getElementById("name").innerHTML = Name
 	w.postMessage({ 
 		SunCPS: SunCPS, 
+		DogsCPS: DogCPS,
 		SeaGullCPS: SeaGullCPS,
 		SunClicks: SunClicks,
 		AllTowerClicks: AllTowerClicks,
