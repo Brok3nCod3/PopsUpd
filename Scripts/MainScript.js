@@ -276,7 +276,6 @@ function gameLoop()
 	w.postMessage({ 
 		SunCPS: SunCPS,
 		DogsCPS: DogsCPS,
-		DogsClicks: DogsClicks,
 		SeaGullCPS: SeaGullCPS,
 		SeaGullLevel: SeaGullLevel
 	})
@@ -354,6 +353,7 @@ function loadGame()
 	w.postMessage({ 
 		SunCPS: SunCPS, 
 		DogsCPS: DogCPS,
+		DogsClicks: DogsClicks,
 		SeaGullCPS: SeaGullCPS,
 		SunClicks: SunClicks,
 		AllTowerClicks: AllTowerClicks,
